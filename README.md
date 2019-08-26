@@ -1,36 +1,27 @@
-# #!/ AizarSender 📧 ~ ChangeLog 📝
-### @v0.1 - 13 August 2019 🕕
-> first release
-### @v0.2 - 23 August 2019 🕕
-#### fixed bug 🐞
-* error if using the `{` or `}` symbol in `header.txt`
-* error if using non-Latin characters in `config.ini`
-* incorrect `from mail` format if using `non-Latin` characters in `config.ini`
-* fixed `random tags` that didn't work in some `html syntax` > [goGJPMa.png](https://i.imgur.com/goGJPMa.png)
-* fixed some `random tags` that didn't work due to conflicts with the `os module` and also replace it with the `pathlib module` > [SnJg1h4.png](https://i.imgur.com/SnJg1h4.png)
-* fixed `random tags` that didn't work if you use different lengths in each tag > [Up45PA8.png](https://i.imgur.com/Up45PA8.png)
-* fixed `incorrect time format` > [EWFtZmb.png](https://i.imgur.com/EWFtZmb.png)
-#### added features ➕
-* adding `multiple attachment` support > [QvUILOx.png](https://i.imgur.com/QvUILOx.png)
-* adding `custom attachment name` support > [SSPsFj8.png](https://i.imgur.com/SSPsFj8.png)
-* adding `custom random tag` > [CTWL68X.png](https://i.imgur.com/CTWL68X.png)
-* adding `new ##random_md5## tag` > [Ecl0tMk.png](https://i.imgur.com/Ecl0tMk.png)
-* adding `pre-installed modules` to the `AizarSender`, so there is no need to install the required modules > [edcku0U.png](https://i.imgur.com/edcku0U.png)
-* adding `more failed log` > [nRphevh.png](https://i.imgur.com/nRphevh.png)
-* adding `time elapsed` > [zVInciZ.png](https://i.imgur.com/zVInciZ.png)
-#### updated features ⚙
-* updating the `mime structure` > [FmXH7sL.png](https://i.imgur.com/FmXH7sL.png), [mime-nesting-structure](https://i.imgur.com/5Wm1Z7a.png)
-* updating the `random tag generator` method (more efficient and faster)
-* updating and add several `date format` variations > [DQvBrQW.png](https://i.imgur.com/DQvBrQW.png)
-* updating and add several `domain providers` to `##random_email##` tag
-### @v0.3 - 25 August 2019 🕕
-#### fixed bug 🐞
-* error if using blank `from mail`
-* error if using `custom hostname`, because cant use `custom from mail`
-#### added features ➕
-* adding `use to` (how many `'to address'` do you want to `use` when sending `email`?) & `switch to` (switching `'to address'` when `reaching` how many `email`?) while using `To + Bcc method` > [RJXC82w.png](https://i.imgur.com/RJXC82w.png)
-* adding `automatically` change `from email` (if you use a `custom hostname`) to `current SMTP User` when sending
-#### updated features ⚙
-* updating the `mime structure` > [pfyRIa6.png](https://i.imgur.com/pfyRIa6.png), [mime-nesting-structure](https://i.imgur.com/5Wm1Z7a.png)
-* updating `To Address` & change as a file (`to.txt`) so you can add bulk `To Address` while using `To + Bcc method` > [VtuUSWO.png](https://i.imgur.com/VtuUSWO.png)
-* updating `X-Priority` format > [pPSPNGE.png](https://i.imgur.com/pPSPNGE.png)
+# AizarSender 📧
+Features 📌 | 💬
+------------ | -------------
+Support `Windows` & `Linux` | ✔️
+Support `Multiple` `Attachment`, `TO Address` (only work if using `TO + BCC Method`), `Subject`, `Base64 Subject`, `From Name`, & `From Mail`| ✔️
+Support `Connection` (how many `email` do you want to send with `1 SMTP`?) | ✔️
+Support `Pause Every` (how many `email` have you sent that you want to `pause`?) | ✔️
+Support `Long Sleep` (how `long` does it will `sleep` (in `second`)? | ✔️
+Support `Custom Header` | ✔️
+Support `3 Method` (`TO` only, `BCC` only, & `TO` + `BCC`) | ✔️
+Support `Custom Hostname` (if you want to use `other smtp/relay provider` rather than `gsuite`) | ✔️
+Support Port `465`, `587`, `25`, `26`. Because `Most ISP Block Port 25 By Default`, `Port 25 Only Work On Particular ISP` (using `RDP/VPS` is recommended), & `Port 26` (`alternative`) | ✔️
+Support `X-Priority` (`High`, `Normal`, & `Low`) | ✔️
+Support `Base64 Subject` | ✔️
+Support `First` + `Base64 Subject` + `Last`. If You Want To `Add Additional Text` In `Front` (`Before Base64 Subject`) Or `Behind` (`After Base64 Subject`) | ✔️
+Support `Random Tag` > [JvBvqK4.png](https://i.imgur.com/JvBvqK4.png) | ✔️
+Support `custom random tag` > [CTWL68X.png](https://i.imgur.com/CTWL68X.png) | ✔️
+Support `Encrypted Letter` (only work if using `letter.html`) | ✔️
+Support `Sequential SMTP Rotate` From The `First` To The `Last` SMTP (not `randomize`!)  | ✔️
+Support `Multiple Tab` (it is `recommended` to `duplicate sender folder` > [5qVVJci.png](https://i.imgur.com/5qVVJci.png) & `run it in each folder` to `avoid sender crashes`) | ✔️
+Support `use to` (how many `'to address'` do you want to `use` when sending `email`?) & `switch to` (switching `'to address'` when `reaching` how many `email`?) while using `To + Bcc method` > [RJXC82w.png](https://i.imgur.com/RJXC82w.png) | ✔️
+Free Lifetime Updates | ✔️
+
+Price 💸 | 🔗
+------------ | -------------
+1 license = **$19** (for 1 user and 1 month) | [BUY](https://icq.im/Alinko)
+5 license = ~~$95~~ **$71** *`25% OFF`* (for 5 user and 1 month) | [BUY](https://icq.im/Alinko)
